@@ -50,10 +50,10 @@ export default function SplashScreen() {
       ))}
 
       {/* Logo with glow */}
-      <div className="relative z-10 animate-float-light mb-6">
+      <div className="relative z-10 animate-float-light mb-3">
         <div className="absolute inset-0 scale-110 blur-2xl bg-white opacity-10 rounded-full" />
         <div className="relative z-10">
-          <Image src="/logo.png" alt="Smart Water Tank Logo" width={300} height={300} />
+          <Image src="/logo.png" alt="Smart Water Tank Logo" width={200} height={200} />
         </div>
       </div>
 

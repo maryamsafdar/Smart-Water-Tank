@@ -7,7 +7,7 @@ interface TankDisplayProps {
   export default function TankDisplay({ level }: TankDisplayProps) {
     return (
       <div className="flex flex-col items-center">
-        <Image src="/logo1.png" alt="Tank" width={300} height={300} />
+        <Image src="/logo1.png" alt="Tank" width={100} height={100} />
         <p className="mt-4 text-xl font-medium">Level: {level}%</p>
       </div>
     );

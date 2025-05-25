@@ -40,7 +40,7 @@ export default function Dashboard() {
           <Header title="Tank Water Level" />
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 w-full">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 w-full">
           <div className="w-full md:w-1/2 border-2 border-black rounded-2xl p-4 bg-white shadow-xl">
             <TankDisplay level={0} />
           </div>
@@ -49,7 +49,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        <div className="mt-10 w-full md:w-1/2 space-y-4">
+        <div className="mt-6 w-full md:w-1/2 space-y-4">
           <button
             onClick={() => router.push("/Weather")} 
             className="w-full border-2 border-black bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-4 text-lg font-semibold shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
@@ -59,7 +59,7 @@ export default function Dashboard() {
           </button>
           <button
             onClick={() => router1.push("/WaterLevel")}
-            className="w-full border-2 border-black bg-blue-300 hover:bg-blue-400 text-white rounded-xl py-4 text-lg font-semibold shadow-md transition duration-300 ease-in-out transform hover:scale-105"
+            className="w-full border-2 border-black bg-blue-500 hover:bg-blue-400 text-white rounded-xl py-4 text-lg font-semibold shadow-md transition duration-300 ease-in-out transform hover:scale-105"
             aria-label="Settings"
           >
             SETTINGS

@@ -5,7 +5,7 @@ import WeatherCard from "@/components/WheatherCard";
 
 export default function WeatherPage() {
   return (
-    <div className="relative min-h-screen w-full bg-gradient-to-br from-white via-blue-100 to-white text-gray-800 flex justify-center items-center p-6 overflow-hidden">
+    <div className="relative min-h-screen w-full bg-gradient-to-br from-white via-blue-100 to-white text-gray-800 flex justify-center items-center overflow-hidden">
 
        {/* Top Diagonal Blurred Waves */}
       <div className="absolute top-[-10%] left-[-20%] w-[160%] rotate-[10deg] z-0 filter blur-xl opacity-70">

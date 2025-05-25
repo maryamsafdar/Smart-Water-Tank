@@ -12,7 +12,7 @@ export default function WeatherCard({
   raining,
 }: WeatherCardProps) {
   return (
-    <div className="min-h-screen w-full flex flex-col items-center justify-center p-6 text-gray-800 overflow-hidden">
+    <div className="h-screen w-full flex flex-col items-center justify-center text-gray-800 overflow-hidden">
 
       {/* Background Waves */}
       <div className="absolute top-[-10%] left-[-20%] w-[160%] rotate-[10deg] z-0 filter blur-xl opacity-70 pointer-events-none">

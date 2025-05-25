@@ -19,7 +19,7 @@ export default function TankLevel() {
         />
 
         {/* Title */}
-        <h1 className="text-3xl font-bold">Tank Water Level</h1>
+        <h1 className="text-2xl font-bold">Tank Water Level</h1>
 
         {/* Subtitle */}
         <div className="text-center">

@@ -7,7 +7,7 @@ export default function TankLevel() {
   const [width, setWidth] = useState("");
 
   return (
-    <div className=" p-8 w-full max-w-md text-gray-800 backdrop-blur-md">
+    <div className=" p-3 w-full max-w-md text-gray-800 backdrop-blur-md">
       <div className="flex flex-col items-center space-y-6">
         {/* Logo */}
         <Image

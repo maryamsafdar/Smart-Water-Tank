@@ -31,11 +31,11 @@ export default function WeatherCard({
       <div className="relative z-10 w-full max-w-3xl text-center font-semibold">
         <h2 className="text-2xl font-bold mb-6">Current Weather</h2>
 
-        <div className="flex justify-start mb-6">
-          <Image src="/Heat-wave.png" alt="Sun" width={200} height={200} />
+        <div className="flex justify-start mb-2">
+          <Image src="/Heat-wave.png" alt="Sun" width={300} height={300} />
         </div>
 
-        <div className="space-y-4 text-xl text-gray-800">
+        <div className="space-y-4 text-xl text-gray-800 text-left">
           <p>
             Temperature: <span className="text-blue-600 font-bold">{temperature} ℃</span>
           </p>

@@ -14,14 +14,14 @@ export default function Dashboard() {
       {/* Top Diagonal Blurred Waves — reduced height and opacity */}
       <div className="absolute top-0 left-[-20%] w-[160%] rotate-[10deg] z-0 filter blur-lg opacity-40">
         <svg className="w-full h-[150px]" viewBox="0 0 1440 320">
-          <path fill="#c7d2fe" fillOpacity="0.8" d="M0,160L60,165.3C120,171,240,181,360,181.3C480,181,600,171,720,181.3C840,192,960,224,1080,234.7C1200,245,1320,235,1380,229.3L1440,224L1440,0L0,0Z" />
+          <path fill="#c7d2fe" fillOpacity="2.9" d="M0,160L60,165.3C120,171,240,181,360,181.3C480,181,600,171,720,181.3C840,192,960,224,1080,234.7C1200,245,1320,235,1380,229.3L1440,224L1440,0L0,0Z" />
         </svg>
       </div>
 
       {/* Bottom Diagonal Blurred Waves */}
       <div className="absolute bottom-[-10%] right-[-20%] w-[160%] rotate-[-10deg] z-0 filter blur-xl opacity-70">
         <svg className="w-full" viewBox="0 0 1440 320">
-          <path fill="#c7d2fe" fillOpacity="0.9" d="M0,160L60,165.3C120,171,240,181,360,181.3C480,181,600,171,720,181.3C840,192,960,224,1080,234.7C1200,245,1320,235,1380,229.3L1440,224L1440,320L0,320Z" />
+          <path fill="#c7d2fe" fillOpacity="2.9" d="M0,160L60,165.3C120,171,240,181,360,181.3C480,181,600,171,720,181.3C840,192,960,224,1080,234.7C1200,245,1320,235,1380,229.3L1440,224L1440,320L0,320Z" />
         </svg>
       </div>
 
